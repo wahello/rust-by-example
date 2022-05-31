@@ -1,0 +1,19 @@
+[package]
+name = "rustbyexamples"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[workspace]
+members=[
+    "examples/ch01",
+    "examples/ch02",
+]
+default-members = [
+    "examples/ch02", 
+]
+# exclude = []
+
+
+
